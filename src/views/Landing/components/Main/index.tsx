@@ -10,15 +10,15 @@ function Main() {
                 <img src={CatImg} alt="" />
             </div> */}
             <div className="landing-main-title-wrap">
-                <p>The Multi Chain</p>
-                <p>Reserve Currency</p>
+                <p>The Interoperable</p>
+                <p>Reserve Currency of DeFi</p>
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
                 <p>and earn compounding interest</p>
             </div> */}
             <div className="landing-main-btns-wrap">
-                <Link href="https://traversedao.pages.dev/" target="_blank" rel="noreferrer">
+                <Link href="https://app.traverse.money" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
                         <p>Enter App</p>
                     </div>
