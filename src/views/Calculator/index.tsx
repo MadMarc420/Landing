@@ -154,7 +154,7 @@ function Calculator() {
                                         </Grid>
                                         <Grid item xs={12} sm={6}>
                                             <div className="calculator-card-action-area-inp-wrap">
-                                                <p className="calculator-card-action-area-inp-wrap-title">TIME price at purchase ($)</p>
+                                                <p className="calculator-card-action-area-inp-wrap-title">VERSE price at purchase ($)</p>
                                                 <OutlinedInput
                                                     type="number"
                                                     placeholder="Amount"
