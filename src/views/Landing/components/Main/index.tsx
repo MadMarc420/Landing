@@ -7,7 +7,7 @@ function Main() {
     return (
 	    declare global {
 	// devDependency: fking declaration for the FONT
-	type Font = any;
+	type Font = any,
 	    }
         <div className="landing-main">
             {/* <div className="landing-main-img-wrap">
