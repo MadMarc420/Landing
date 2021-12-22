@@ -10,13 +10,10 @@ function Main() {
                 <img src={CatImg} alt="" />
             </div> */}
             <div className="landing-main-title-wrap">
-                <p>The Interoperable</p>
-                <p>Reserve Currency of DeFi</p>
-                <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
-                <style>
-				body {
-                        font-family: 'Orbitron';font-size: 22px;
-                }
+				<font face="Orbitron" size="20px" color="#FF7A59">The Interoperable</font><br>
+                <font face="Orbitron" size="20px" color="#FF7A59">Reserve Currency of DeFi</font>
+                
+               <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
