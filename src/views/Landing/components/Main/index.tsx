@@ -25,7 +25,7 @@ function Main() {
                 </Link> */}
                 <Link href="https://traverse.gitbook.io/traverse/" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
-                        <p>Documentat</p>
+                        <p>Documentation</p>
                     </div>
                 </Link>
             </div>
