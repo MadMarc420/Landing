@@ -13,7 +13,7 @@ function Landing() {
             {/* <Footer /> */}
             <Background />
         </div>
-    )
+    );
 }
 
 export default Landing;

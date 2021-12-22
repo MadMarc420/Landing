@@ -14,9 +14,9 @@ function Main() {
                 <p>Reserve Currency of DeFi</p>
                 <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
                 <style>
-                   body {
-                        font-family: 'Orbitron';font-size: 22px;
-                        }
+				body {
+                        font-family: 'Orbitron';font-size: 22px
+                     }
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
