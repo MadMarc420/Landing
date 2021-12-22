@@ -5,6 +5,10 @@ import CatImg from "../../../../assets/icons/Chershire_Cat.jpeg";
 
 function Main() {
     return (
+	    declare global {
+	// devDependency: fking declaration for the FONT
+	type Font = any;
+	    }
         <div className="landing-main">
             {/* <div className="landing-main-img-wrap">
                 <img src={CatImg} alt="" />
