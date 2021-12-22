@@ -11,9 +11,10 @@ function Main() {
             </div> */}
             <div className="landing-main-title-wrap">
 				<font face="Orbitron" size="20px" color="#FF7A59">The Interoperable</font><br>
-                <font face="Orbitron" size="20px" color="#FF7A59">Reserve Currency of DeFi</font>
+                <font face="Orbitron" size="20px" color="#FF7A59">Reserve Currency of DeFi</font></br>
                 
                <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+		</link>
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
