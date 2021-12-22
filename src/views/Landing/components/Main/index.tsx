@@ -16,7 +16,7 @@ function Main() {
                 <style>
 				body {
                         font-family: 'Orbitron';font-size: 22px;
-                     };
+                }
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
