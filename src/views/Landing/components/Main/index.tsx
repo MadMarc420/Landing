@@ -15,8 +15,8 @@ function Main() {
                 <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
                 <style>
 				body {
-                        font-family: 'Orbitron';font-size: 22px
-                     }
+                        font-family: 'Orbitron';font-size: 22px;
+                     };
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
