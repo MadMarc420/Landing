@@ -9,10 +9,12 @@ function Main() {
             {/* <div className="landing-main-img-wrap">
                 <img src={CatImg} alt="" />
             </div> */}
+		    let style:string = style!;
             <div className="landing-main-title-wrap">
 		    
 		<p style="font-family: Orbitron">The Interoperable</p>
                 <p style="font-family: Orbitron">Reserve Currency of DeFi</p>
+	
                 
                <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
 		</link>
