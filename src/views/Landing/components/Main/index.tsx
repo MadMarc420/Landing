@@ -5,17 +5,14 @@ import CatImg from "../../../../assets/icons/Chershire_Cat.jpeg";
 
 function Main() {
     return (
-	    declare global {
-	// devDependency: fking declaration for the FONT
-	type Font = any,
-	    }
         <div className="landing-main">
             {/* <div className="landing-main-img-wrap">
                 <img src={CatImg} alt="" />
             </div> */}
             <div className="landing-main-title-wrap">
-		<Font face="Orbitron" size="20px" color="#FF7A59">The Interoperable</Font><br>
-                <Font face="Orbitron" size="20px" color="#FF7A59">Reserve Currency of DeFi</Font></br>
+		    
+		<p style="font-family: Orbitron">The Interoperable</p>
+                <p style="font-family: Orbitron">Reserve Currency of DeFi</p>
                 
                <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
 		</link>
