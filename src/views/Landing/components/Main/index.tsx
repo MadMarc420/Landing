@@ -13,6 +13,7 @@ function Main() {
                 <p>The Interoperable</p>
                 <p>Reserve Currency of DeFi</p>
                 <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+                </link>
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
