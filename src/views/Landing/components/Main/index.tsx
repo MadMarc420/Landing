@@ -9,13 +9,10 @@ function Main() {
             {/* <div className="landing-main-img-wrap">
                 <img src={CatImg} alt="" />
             </div> */}
-            <div className="landing-main-title-wrap">
-		    
-		<p>The Interoperable</p>
+                    <div className="landing-main-title-wrap">
+                <p>The Interoperable</p>
                 <p>Reserve Currency of DeFi</p>
-		    
-               <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
-		</link>
+                <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
             </div>
             {/* <div className="landing-main-help-text-wrap">
                 <p>Financial tools to grow your wealth - stake</p>
@@ -34,7 +31,7 @@ function Main() {
                 </Link>
             </div>
         </div>
-    );
+    )
 }
 
 export default Main;
