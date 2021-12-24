@@ -31,7 +31,7 @@ function Header() {
                                         <SvgIcon color="primary" component={Twitter} />
                                         <p>Twitter</p>
                                     </Link>
-                                    <Link className="tooltip-item" href="https://discord.gg/p4yeKMxzww" target="_blank">
+                                    <Link className="tooltip-item" href="https://discord.gg/Traverse" target="_blank">
                                         <SvgIcon color="primary" component={Discord} />
                                         <p>Discord</p>
                                     </Link>
