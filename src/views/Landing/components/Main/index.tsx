@@ -9,7 +9,7 @@ function Main() {
             {/* <div className="landing-main-img-wrap">
                 <img src={CatImg} alt="" />
             </div> */}
-                    <div className="landing-main-title-wrap">
+            <div className="landing-main-title-wrap">
                 <p>The Interoperable</p>
                 <p>Reserve Currency of DeFi</p>
                 <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
@@ -20,11 +20,11 @@ function Main() {
                 <p>and earn compounding interest</p>
             </div> */}
             <div className="landing-main-btns-wrap">
-                {/* <Link href="https://app.traverse.money" target="_blank" rel="noreferrer">
+                <Link href="https://app.traverse.money" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
                         <p>Enter App</p>
                     </div>
-                </Link> */}
+                </Link>
                 <Link href="https://traverse.gitbook.io/traverse/" target="_blank" rel="noreferrer">
                     <div className="landing-main-btn">
                         <p>Documentation</p>
