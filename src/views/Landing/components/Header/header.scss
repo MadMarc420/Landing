@@ -9,6 +9,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: 100px;
+        height: 82px;
+        background-size: 100px 82px;
         cursor: default;
 
         .landing-header-nav-text{
