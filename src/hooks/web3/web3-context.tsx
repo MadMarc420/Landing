@@ -1,4 +1,4 @@
-import React, { useState, ReactElement, useContext, useMemo, useCallback } from "react";
+import React, { useState, ReactElement, useContext, useMemo, useCallback, useEffect } from "react";
 import Web3Modal from "web3modal";
 import { StaticJsonRpcProvider, JsonRpcProvider, Web3Provider } from "@ethersproject/providers";
 import WalletConnectProvider from "@walletconnect/web3-provider";
@@ -45,6 +45,8 @@ export const useAddress = () => {
     return address;
 };
 
+
+
 export const Web3ContextProvider: React.FC<{ children: ReactElement }> = ({ children }) => {
     const dispatch = useDispatch();
 
@@ -54,7 +56,7 @@ export const Web3ContextProvider: React.FC<{ children: ReactElement }> = ({ chil
     const [address, setAddress] = useState("");
 
     const [uri, setUri] = useState(getMainnetURI());
-    const [provider, setProvider] = useState<JsonRpcProvider>(new StaticJsonRpcProvider(uri));
+    const [provider, setProvider] = useState<JsonRpcProvider>(new JsonRpcProvider(getMainnetURI()));
 
     const [web3Modal] = useState<Web3Modal>(
         new Web3Modal({
@@ -71,6 +73,10 @@ export const Web3ContextProvider: React.FC<{ children: ReactElement }> = ({ chil
             },
         }),
     );
+
+    useEffect(()=>{
+        connect()
+    },[])
 
     const hasCachedProvider = (): boolean => {
         if (!web3Modal) return false;
@@ -119,13 +125,15 @@ export const Web3ContextProvider: React.FC<{ children: ReactElement }> = ({ chil
         setProviderChainID(chainId);
 
         if (chainId === Networks.AVAX) {
-            setProvider(connectedProvider);
+            // setProvider(connectedProvider);
         }
 
         setConnected(true);
 
         return connectedProvider;
     }, [provider, web3Modal, connected]);
+
+
 
     const checkWrongNetwork = async (): Promise<boolean> => {
         if (providerChainID !== DEFAULD_NETWORK) {
