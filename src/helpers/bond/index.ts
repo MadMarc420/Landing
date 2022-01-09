@@ -5,6 +5,7 @@ import { StableBond, CustomBond } from "./stable-bond";
 import DaiIcon from "../../assets/tokens/DAI.e.svg";
 import AvaxIcon from "../../assets/tokens/AVAX.svg";
 import MimTimeIcon from "../../assets/tokens/TIME-MIM.svg";
+import DaiVerseIcon from "../../assets/tokens/VERSE-DAI.png";
 import AvaxTimeIcon from "../../assets/tokens/TIME-AVAX.svg";
 
 import { StableBondContract, LpBondContract, WavaxBondContract, StableReserveContract, LpReserveContract } from "../../abi";
@@ -44,17 +45,17 @@ export const wavax = new CustomBond({
 export const daiVerse = new LPBond({
     name: "dai_verse_lp",
     displayName: "VERSE-DAI LP",
-    bondToken: "MIM",
-    bondIconSvg: MimTimeIcon,
+    bondToken: "DAI",
+    bondIconSvg: DaiVerseIcon,
     bondContractABI: LpBondContract,
     reserveContractAbi: LpReserveContract,
     networkAddrs: {
         [Networks.AVAX]: {
-            bondAddress: "0xA184AE1A71EcAD20E822cB965b99c287590c4FFe",
-            reserveAddress: "0x113f413371fc4cc4c9d6416cf1de9dfd7bf747df",
+            bondAddress: "0xc168A3083907d3261e78BFb830ea8E5019225BCd",
+            reserveAddress: "0xbf56ea8a64faf58889584930716e655317d22ea6",
         },
     },
-    lpUrl: "https://exchange.lydia.finance/#/add/0x130966628846BFd36ff31a822705796e8cb8C18D/0xb54f16fB19478766A268F172C9480f8da1a7c9C3",
+    lpUrl: "https://exchange.lydia.finance/#/add/0xB72ab6f7177bBb41eFcC17D817778d77460259F1/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
 });
 
 export const avaxVerse = new CustomLPBond({
@@ -74,4 +75,4 @@ export const avaxVerse = new CustomLPBond({
 });
 
 // export default [mim, wavax, mimTime, avaxTime];
-export default [dai, wavax];
+export default [dai, daiVerse];
